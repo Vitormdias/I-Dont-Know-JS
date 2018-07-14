@@ -107,3 +107,67 @@ var obj = new ObjectName('1','2')
 * Protect the existing object
 
 * Allows extended functionality
+
+
+### Façade Pattern
+
+* Used to provide a simplified interface to a complicated system
+
+* ex: JQuery 
+
+* The front of a building 
+
+* Facade hides the chaos from us
+
+* Simplifies the interface 
+
+### Flyweight
+
+* Conserves memory by sharing positions of an object between objects
+
+* Shares data across objects
+
+* Results in a smaller memory footprint
+    * Excelent in mobile
+
+* But only if you have a large number of objects
+
+* Better with complex objects
+
+## Behavioral Patterns
+
+* Concerned with the assignment of responsabilities between objects and how they comunicate
+
+### Observer Pattern
+
+* Allows a collection of objects to watch an object and be notified of changes 
+
+* Allows for loosely coupled system
+
+* One object is the focal point
+
+* Group of objects watch for changes
+
+### Mediator Pattern 
+
+* Controls the communication between objects so neither object has to be coupled to the others
+
+* Allows for loosely coupled system
+
+* One object manages all the communication
+
+* Many to many relationships
+
+### Command Pattern
+
+* Encapsulates the calling of a method as an object
+
+* Fully decouples the execution from the implementation
+
+* Allows for less fragile implementations
+
+* Support undo operations
+
+* Supports auditing and log of operations
+
+* Creates an execute function
